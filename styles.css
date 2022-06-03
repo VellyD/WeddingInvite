@@ -10,20 +10,21 @@ html {
 
 
 h1 {
-    font-size: 15px;
+    font-size: 50px;
     text-align: center;
     color: #32533d;
-    font-size: 50px;
+
 
 }
 
 .navUl {
-
+    color: whitesmoke;
     list-style: none;
     display: flex;
     flex-direction: row;
     justify-content: center;
     gap: 20px;
+    font-style: italic;
 
 
 }
@@ -36,6 +37,7 @@ h1 {
 }
 
 .our-story {
+    text-align: end;
     margin: 50px;
     padding: 10px;
     display: flex;
