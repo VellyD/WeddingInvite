@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
 html {
-
     font-family: Pacifico, cursive;
     letter-spacing: 3px;
     color: #5e6e5f;
@@ -10,11 +9,8 @@ html {
 
 h1 {
     font-size: 50px;
-    text-align: center;
     font-weight: 300;
-    font-style: oblique;
-
-
+    text-align: center;
 
 }
 
@@ -30,21 +26,35 @@ h1 {
 
 }
 
+.our-story {
+    justify-content: center;
+    margin: auto;
+    padding: auto;
+    display: flex;
+    gap: 20px;
+ 
+}
+
+.ourStoryText {
+
+    text-align: center;
+
+
+}
+
 .storyPhoto {
     border: 2px solid #718474;
     border-radius: 20px;
     padding: 10px;
-    width: 50%;
+    min-width: 300px;
+    max-width: 500px;
+    min-height: 150px;
+    max-height: 600px;
 
 }
 
-.our-story {
-    text-align: end;
-    margin: 50px;
-    padding: 10px;
-    display: flex;
-    gap: 20px;
-}
+
+
 
 
 
