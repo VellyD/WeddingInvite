@@ -12,12 +12,13 @@ html {
 h1 {
     font-size: 15px;
     text-align: center;
-    color: #77966d;
+    color: #32533d;
     font-size: 50px;
 
 }
 
 .navUl {
+
     list-style: none;
     display: flex;
     flex-direction: row;
@@ -25,4 +26,31 @@ h1 {
     gap: 20px;
 
 
+}
+
+.storyPhoto {
+    border: 2px solid #718474;
+    border-radius: 20px;
+    width: 50%;
+
+}
+
+.our-story {
+    margin: 50px;
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+}
+
+
+
+
+
+
+
+
+
+footer {
+    text-align: center;
+    font-size: 15px;
 }
