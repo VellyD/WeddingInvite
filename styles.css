@@ -27,16 +27,15 @@ h1 {
 }
 
 .our-story {
-    justify-content: center;
+    display: flex;
     margin: auto;
-    padding: auto;
     display: flex;
     gap: 20px;
- 
+
 }
 
 .ourStoryText {
-
+    margin: auto;
     text-align: center;
 
 
@@ -50,6 +49,7 @@ h1 {
     max-width: 500px;
     min-height: 150px;
     max-height: 600px;
+
 
 }
 
