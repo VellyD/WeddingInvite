@@ -1,58 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
 
-html {
-    font-family: Pacifico, cursive;
+/* Generic */
+body {
+    font-family: 'Nanum Gothic', sans-serif;
     letter-spacing: 3px;
-    color: #5e6e5f;
-}
-
-
-h1 {
-    font-size: 50px;
-    font-weight: 300;
-    text-align: center;
 
 }
 
-.navUl {
-    color: whitesmoke;
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 20px;
-    font-style: italic;
+/* Header styles */
 
-
+header {
+    background-color: #5F7161;
+    color: #fff;
 }
 
-.our-story {
-    display: flex;
-    margin: auto;
-    display: flex;
-    gap: 20px;
-
-
-}
-
-.ourStoryText {
-    margin: auto;
-    text-align: center;
-    display: inline-block;
-
-}
-
-.storyPhoto {
-    border: 2px solid #718474;
-    border-radius: 20px;
-    padding: 10px;
-    min-width: 300px;
-    max-width: 500px;
-    min-height: 150px;
-    max-height: 600px;
-
-
-}
+/* Main sections */
 
 
 
@@ -64,8 +26,12 @@ h1 {
 
 
 
+
+/* Footer */
 
 footer {
+    background-color: #5F7161;
+    color: #fff;
     text-align: center;
     font-size: 15px;
 }
