@@ -35,20 +35,15 @@ body {
 }
 
 /* Main sections */
+/* Todo:  add the picture and make it round.as block element */
 
-.our-story-photo {}
 
-/* .our-story-photo .storyPhoto {
-     max-width: 800px;
-    margin: 0 auto;
-    background-image: url("./storyPhoto.jpg");
-    background-position: center center;
-    background-size: contain; 
 
-} */
+
 
 
 /* Footer */
+/* todo: fix the footer to be centered */
 
 #footer {
     background-color: #6D8B74;
