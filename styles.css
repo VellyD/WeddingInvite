@@ -16,9 +16,19 @@ header {
 
 /* Main sections */
 
+.our-story-photo {
+    
+   
+}
 
+.our-story-photo .storyPhoto {
+    width: 600px;
+    height: 600px;
+    background-image: url("./storyPhoto.jpg");
+    background-position: center center;
+    background-size: contain; 
 
-
+}
 
 
 
