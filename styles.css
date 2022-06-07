@@ -1,47 +1,56 @@
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
-
+@import url('https://use.fontawesome.com/releases/v6.1.1/css/all.css');
 /* Generic */
 body {
     font-family: 'Nanum Gothic', sans-serif;
-    letter-spacing: 3px;
-
 }
 
 /* Header styles */
 
-header {
-    background-color: #5F7161;
+#header {
+    background-color: #6D8B74;
     color: #fff;
+    text-align: center;
+    padding: 15px;
+
+}
+
+#header .navUl .navLi { 
+    display: inline-block;
+    margin: 0 auto;
+    padding: 15px;
+
+}
+
+.navUl .navLi a {
+    color: #fff;
+    text-decoration: none;
+    opacity: 1;
+
+}
+.navUl .navLi a:hover{
+opacity: 0.4;
 }
 
 /* Main sections */
 
-.our-story-photo {
-    
-   
-}
+.our-story-photo {}
 
-.our-story-photo .storyPhoto {
-    width: 600px;
-    height: 600px;
+/* .our-story-photo .storyPhoto {
+     max-width: 800px;
+    margin: 0 auto;
     background-image: url("./storyPhoto.jpg");
     background-position: center center;
     background-size: contain; 
 
-}
-
-
-
-
-
-
+} */
 
 
 /* Footer */
 
 footer {
-    background-color: #5F7161;
+    background-color: #6D8B74;
     color: #fff;
     text-align: center;
-    font-size: 15px;
+    
 }
