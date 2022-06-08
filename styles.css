@@ -36,20 +36,27 @@ body {
 /* Main sections */
 /* Todo:  add the picture and make it round.as block element */
 
-#our-story .our-story-photo {
+#our-story {
     background-color: #EFEAD8;
 }
 
-#our-story .our-story-photo img{
+#our-story .our-story-photo img {
     border-radius: 50%;
     width: 40%;
     height: 40%;
     display: block;
     margin: 0 auto;
     padding: 40px;
- 
+
 }
 
+#our-story .our-story-text{
+    text-align: center;
+    color: #6D8B74;
+    text-decoration: solid;
+    margin: 0 auto;
+    padding: 20px;
+}
 
 
 
@@ -60,10 +67,13 @@ body {
 #footer {
     background-color: #6D8B74;
     color: #fff;
-
+   
 
 }
 
+#footer .footer-content{
+    text-align: center;
+}
 #footer p,
 .footer-content .footer-icons,
 .footer-content .footer-icon {
