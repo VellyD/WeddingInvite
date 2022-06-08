@@ -34,8 +34,10 @@ body {
 }
 
 /* Main sections */
-/* Todo:  add the picture and make it round.as block element */
+/* Todo: Continue working on the second section */
 
+
+/* Our Story Section */
 #our-story {
     background-color: #EFEAD8;
     padding: 20px;
@@ -61,15 +63,20 @@ body {
     padding: 20px;
 }
 
+/* Date and place Section */
+#date-and-place {
+    background-color: #6D8B74;
+    color: #EFEAD8;
+}
+
 
 
 
 /* Footer */
-/* todo: fix the footer to be centered */
 
 #footer {
     background-color: #6D8B74;
-    color: #fff;
+    color: #EFEAD8;
 
 
 }
