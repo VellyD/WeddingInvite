@@ -23,7 +23,7 @@ body {
 }
 
 .navUl .navLi a {
-    color: #fff;
+    color: #EFEAD8;
     text-decoration: none;
     opacity: 1;
 
@@ -36,6 +36,15 @@ body {
 /* Main sections */
 /* Todo:  add the picture and make it round.as block element */
 
+#our-story .our-story-photo {
+    background-color: #EFEAD8;
+}
+
+#our-story .our-story-photo img{
+    border-radius: 50%;
+    max-width: 600px;
+    margin: 0 auto;
+}
 
 
 
