@@ -10,7 +10,7 @@ body {
 
 #header {
     background-color: #6D8B74;
-    color: #fff;
+    color: #EFEAD8;
     text-align: center;
     padding: 15px;
 }
@@ -42,8 +42,12 @@ body {
 
 #our-story .our-story-photo img{
     border-radius: 50%;
-    max-width: 600px;
+    width: 40%;
+    height: 40%;
+    display: block;
     margin: 0 auto;
+    padding: 40px;
+ 
 }
 
 
