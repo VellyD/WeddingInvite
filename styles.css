@@ -3,10 +3,8 @@
 
 /* Generic */
 /*
-#5F7161 - dark green
-#6D8B74 - lith green
-#EFEAD8 - creme
-#D0C9C0  - ochra
+dddbde - white
+365d5e - dark
  */
 body {
     font-family: 'Nanum Gothic', sans-serif;
@@ -15,17 +13,16 @@ body {
 /* Header styles */
 
 #header {
-    background-image: url('./filip-zrnzevic-QsWG0kjPQRY-unsplash.jpg');
+    background-image: url('./forestPic.jpg');
     background-position: center center;
     background-size: cover;
     text-align: center;
     padding: 15px;
 }
 
-
 #header .header .icons {
-    color:#365d5e;
-        
+    color: #365d5e;
+
 }
 
 #header .navUl .navLi {
@@ -64,15 +61,15 @@ body {
 }
 
 #our-story .our-story-photo img {
-    border: 2px solid #fff;
-    border-radius: 50%;
+    border: 5px solid #dddbde;
+    border-radius: 20px;
 }
 
 #our-story .our-story-text {
+    font-size: 16px;
     text-align: center;
-    color: #fff;
-    text-decoration: solid;
-    padding: 20px;
+    color: #dddbde;
+    padding: 25px 30px;
 }
 
 /* Date and place Section */
@@ -82,8 +79,6 @@ body {
 
 
 /* Footer */
-
-#footer {}
 
 #footer .footer-content {
     text-align: center;
