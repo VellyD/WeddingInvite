@@ -73,7 +73,29 @@ body {
 }
 
 /* Date and place Section */
-#date-and-place {}
+#date-and-place {
+    background-color: #dddbde;
+    padding: 50px;
+
+}
+
+#date-and-place .text {
+
+    width: 50%;
+    font-size: 16px;
+    color: #365d5e;
+
+}
+
+#date-and-place .hut-photo {
+    width: 70%;
+    height: auto;
+    background-image: url("./hut.jpg");
+    background-size: cover;
+   background-position: center center;
+    margin: 0 auto;
+
+}
 
 
 
