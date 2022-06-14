@@ -10,6 +10,20 @@ body {
     font-family: 'Nanum Gothic', sans-serif;
 }
 
+/* Scroll to top */
+
+.scroll-top {
+    position: relative;
+}
+
+.scroll-top a {
+    background-color: #365d5e;
+    color: #dddbde;
+    border-radius: 50%;
+    padding: 10px;
+    position: sticky;
+}
+
 /* Header styles */
 
 #header {
@@ -91,7 +105,7 @@ body {
     height: auto;
     background-image: url("./hut.jpg");
     background-size: cover;
-   background-position: center center;
+    background-position: center center;
     margin: 0 auto;
 
 }
