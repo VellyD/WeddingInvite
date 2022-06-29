@@ -60,21 +60,18 @@ body {
 /* invite section */
 
 #invite {
-    position: relative;
-    overflow: hidden;
-}
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
 
-#invite img {
-    opacity: 0.92;
-}
+    background-image: url('./invite-photo.jpg');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.9;
 
-#invite .invite-text {
-    position: absolute;
-    top: 37%;
-    left: 27%;
-    text-align: center;
     color: #fff;
-
 }
 
 #invite .invite-text h2 {
@@ -93,10 +90,9 @@ body {
     border-bottom: 1px solid white;
     padding: 15px;
 
-
 }
 
-#invite .date {
+/* #invite .date {
     position: absolute;
     left: 35%;
     bottom: -180px;
@@ -104,7 +100,7 @@ body {
     height: 300px;
     background-color: var(--clr-light-green);
     border-radius: 50%;
-    
+
     text-align: center;
     opacity: 0.9;
     color: white;
@@ -120,4 +116,4 @@ body {
 #invite .date span {
     font-weight: 400;
     font-size: 16px;
-}
+} */
