@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+
 @import url('https://use.fontawesome.com/releases/v6.1.1/css/all.css');
 
 /* Generic */
@@ -7,7 +8,7 @@ dddbde - white
 365d5e - dark
  */
 body {
-    font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'Amatic SC', cursive;
 }
 
 /* Scroll to top
@@ -29,105 +30,5 @@ body {
 
 /* Header styles */
 
-#header {
-    background-image: url('./forestPic.jpg');
-    background-position: center center;
-    background-size: cover;
-    position: fixed;
-    top: 0px;
-    width: 100%;
-    text-align: center;
-    padding: 15px;
-    
-}
-
-#header .header .icons {
-    color: #365d5e;
-
-}
-
-#header .navUl .navLi {
-    display: inline-block;
-    margin: 0 auto;
-    padding: 15px;
-
-}
-
-.navUl .navLi a {
-    color: #365d5e;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 15px;
-    opacity: 1;
-
-}
-
-.navUl .navLi a:hover {
-    opacity: 0.4;
-}
-
-/* Main sections */
-/* Todo: Continue working on the second section */
 
 
-/* Our Story Section */
-#our-story {
-    background-color: #365d5e;
-    padding: 20px;
-}
-
-#our-story .our-story-photo {
-    width: 35%;
-    margin: 0 auto;
-}
-
-#our-story .our-story-photo img {
-    border: 5px solid #dddbde;
-    border-radius: 20px;
-}
-
-#our-story .our-story-text {
-    font-size: 16px;
-    text-align: center;
-    color: #dddbde;
-    padding: 25px 30px;
-}
-
-/* Date and place Section */
-#date-and-place {
-    background-color: #dddbde;
-    padding: 50px;
-
-}
-
-#date-and-place .text {
-    width: 50%;
-    font-size: 16px;
-    color: #365d5e;
-
-}
-
-#date-and-place .hut-photo {
-    width: 70%;
-    height: auto;
-    background-image: url("./hut.jpg");
-    background-size: cover;
-    background-position: center center;
-    margin: 0 auto;
-
-}
-
-
-
-
-/* Footer */
-
-#footer .footer-content {
-    text-align: center;
-}
-
-#footer p,
-.footer-content .footer-icons,
-.footer-content .footer-icon {
-    display: inline-block;
-}
