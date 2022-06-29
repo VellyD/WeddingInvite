@@ -9,7 +9,10 @@
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Roboto', sans-serif;
+     */
+    font-family: 'Great Vibes', cursive;
+
 }
 
 
@@ -37,7 +40,6 @@ body {
     color: var(--clr-green);
 }
 
-
 #header .header-wrapper .nav-ul {
     display: flex;
     justify-content: space-between;
@@ -53,3 +55,42 @@ body {
     font-weight: 500;
     color: var(--clr-green);
 }
+
+/* invite section */
+
+#invite {
+    position: relative;
+}
+
+#invite img{
+    opacity: 0.92;
+}
+
+#invite .invite-text {
+    position: absolute;
+    top: 37%;
+    left: 27%;
+    text-align: center;
+    color: #fff;
+   
+}
+
+#invite .invite-text h2{
+    font-size: 72px;
+    text-shadow: 1px 1px 2px rgb(0 0 0 / 60%);
+}
+
+#invite .invite-text h4{
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px rgb(0 0 0 / 60%);
+    letter-spacing: 1px;
+    line-height: 1.1;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    padding: 15px;
+  
+
+}
+
