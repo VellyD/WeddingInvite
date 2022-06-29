@@ -6,6 +6,7 @@
 /* General */
 :root {
     --clr-green: #5e9a8e;
+    --clr-light-green: #66978c;
 }
 
 body {
@@ -60,9 +61,10 @@ body {
 
 #invite {
     position: relative;
+    overflow: hidden;
 }
 
-#invite img{
+#invite img {
     opacity: 0.92;
 }
 
@@ -72,15 +74,15 @@ body {
     left: 27%;
     text-align: center;
     color: #fff;
-   
+
 }
 
-#invite .invite-text h2{
+#invite .invite-text h2 {
     font-size: 72px;
     text-shadow: 1px 1px 2px rgb(0 0 0 / 60%);
 }
 
-#invite .invite-text h4{
+#invite .invite-text h4 {
     font-size: 18px;
     font-weight: 600;
     text-transform: uppercase;
@@ -90,7 +92,32 @@ body {
     border-top: 1px solid white;
     border-bottom: 1px solid white;
     padding: 15px;
-  
+
 
 }
 
+#invite .date {
+    position: absolute;
+    left: 35%;
+    bottom: -180px;
+    width: 300px;
+    height: 300px;
+    background-color: var(--clr-light-green);
+    border-radius: 50%;
+    
+    text-align: center;
+    opacity: 0.9;
+    color: white;
+}
+
+#invite .date h4 {
+    font-weight: 600;
+    font-size: 1.94444rem;
+    margin: 45px 0 0.005em;
+
+}
+
+#invite .date span {
+    font-weight: 400;
+    font-size: 16px;
+}
