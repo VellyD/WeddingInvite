@@ -1,18 +1,56 @@
-@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
-
+/* @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 @import url('https://use.fontawesome.com/releases/v6.1.1/css/all.css');
 
-/* Generic */
-/*
-dddbde - white
-365d5e - dark
- */
+
+:root {
+    --clr-green: #5e9a8e;
+}
+
 body {
-    font-family: 'Amatic SC', cursive;
+    font-family: 'Roboto', sans-serif;
 }
 
 
 /* Header styles */
 
+#header .header-wrapper {
+    max-width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    padding: 25px 50px;
+}
 
 
+#header .header-wrapper .couple-logo h1 {
+    font-size: 31px;
+    text-shadow: 1px 1px 2px #999999;
+    font-family: 'Great Vibes', cursive;
+}
+
+#header .header-wrapper .couple-logo a {
+    font-size: 32px;
+    text-decoration: none;
+    color: var(--clr-green);
+}
+
+
+#header .header-wrapper .nav-ul {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    gap: 20px;
+
+}
+
+
+
+#header .header-wrapper .nav-ul .nav-menu a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--clr-green);
+}
