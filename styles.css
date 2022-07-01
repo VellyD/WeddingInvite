@@ -7,6 +7,7 @@
 :root {
     --clr-green: #5e9a8e;
     --clr-light-green: #66978c;
+    --clr-light-background: #f7faf9;
 }
 
 body {
@@ -101,6 +102,13 @@ body {
 }
 
 #story .story-card img {
-    
+    width: 40%;
+    padding: 75px 0px 75px 75px;
 }
-/* story-text */
+
+#story .story-card .story-text {
+    background-color: var(--clr-light-background);
+    width: 60%;
+    height: 100%;
+    padding: 50px 25px 50px 5px;
+}
