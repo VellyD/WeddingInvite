@@ -92,3 +92,15 @@ body {
 
 }
 
+/* Story section */
+
+#story .story-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#story .story-card img {
+    
+}
+/* story-text */
