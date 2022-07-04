@@ -102,28 +102,25 @@ body {
     justify-content: center;
     align-items: center;
 
-    margin: 20px 45px;
+    margin: 50px 70px;
     background-color: var(--clr-light-background);
 
 }
 
 #story .img {
     width: 50%;
-    display: flex;
-    justify-content: right;
-    align-items: center;
+  
 }
-
-
 
 #story .story-text {
     width: 50%;
 
     color: var(--clr-gray);
+    padding: 20px 30px;
 }
 
 #story .story-text h3 {
     font-size: 45px;
-    padding: 10px;
+    
 
 }
