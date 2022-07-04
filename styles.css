@@ -8,6 +8,7 @@
     --clr-green: #5e9a8e;
     --clr-light-green: #66978c;
     --clr-light-background: #f7faf9;
+    --clr-gray: #3d3d3d;
 }
 
 body {
@@ -96,11 +97,14 @@ body {
 /* Story section */
 
 #story {
+    width: 80%;
     display: flex;
     justify-content: center;
     align-items: center;
 
-    padding: 40px 20px;
+    margin: 20px 45px;
+    background-color: var(--clr-light-background);
+
 }
 
 #story .img {
@@ -110,13 +114,16 @@ body {
     align-items: center;
 }
 
-#story img {
-    width: 70%;
-}
+
 
 #story .story-text {
     width: 50%;
-    background-color: var(--clr-light-background);
 
+    color: var(--clr-gray);
+}
+
+#story .story-text h3 {
+    font-size: 45px;
+    padding: 10px;
 
 }
