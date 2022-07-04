@@ -95,20 +95,26 @@ body {
 
 /* Story section */
 
-#story  {
-    width: 80%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#story .story-card img {
+#story {
    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+
+    padding: 40px 20px;
+}
+
+#story img {
+    max-width: 50%;
+   
+  
 
 }
 
-#story .story-card .story-text {
+#story .story-text {
+    width: 50%;
     background-color: var(--clr-light-background);
-    
+
     padding: 50px 25px 50px 5px;
 }
