@@ -95,20 +95,20 @@ body {
 
 /* Story section */
 
-#story .story-card {
+#story  {
+    width: 80%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 #story .story-card img {
-    width: 40%;
-    padding: 75px 0px 75px 75px;
+   
+
 }
 
 #story .story-card .story-text {
     background-color: var(--clr-light-background);
-    width: 60%;
-    height: 100%;
+    
     padding: 50px 25px 50px 5px;
 }
