@@ -121,6 +121,9 @@ body {
 
 #story .story-text h3 {
     font-size: 45px;
-    
+}
 
+#story .story-text span{
+    font-size: 20px;
+    font-weight: 700;
 }
