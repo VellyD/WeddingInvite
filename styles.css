@@ -104,15 +104,22 @@ body {
     justify-content: center;
     align-items: center;
 
-    margin: 50px 70px;
+    margin: 50px auto;
     background-color: var(--clr-light-background);
-
 }
 
 #story .img {
     width: 50%;
 
 }
+
+#story .img img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 40px;
+    padding: 25px;
+}
+
 
 #story .story-text {
     width: 50%;
