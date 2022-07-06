@@ -134,6 +134,7 @@ body {
 
 #date {
     background-color: var(--clr-green);
+    opacity: 0.9;
     color: white;
 
     padding-bottom: 40px;
@@ -151,11 +152,16 @@ body {
     justify-content: space-around;
     align-items: center;
 
-   
+
 }
 
 #date .date-place p {
     font-size: 20px;
     font-style: italic;
     text-decoration: underline;
+}
+
+#date .date-place a {
+    color: white;
+    text-decoration: none;
 }
