@@ -9,6 +9,8 @@
     --clr-light-green: #66978c;
     --clr-light-background: #f7faf9;
     --clr-gray: #3d3d3d;
+
+    --h3-section-heading: 45px;
 }
 
 body {
@@ -109,7 +111,7 @@ body {
 
 #story .img {
     width: 50%;
-  
+
 }
 
 #story .story-text {
@@ -120,10 +122,40 @@ body {
 }
 
 #story .story-text h3 {
-    font-size: 45px;
+    font-size: var(--h3-section-heading);
 }
 
-#story .story-text span{
+#story .story-text span {
     font-size: 20px;
     font-weight: 700;
+}
+
+/* Place section */
+
+#date {
+    background-color: var(--clr-green);
+    color: white;
+
+    padding-bottom: 40px;
+}
+
+#date h3 {
+    font-size: var(--h3-section-heading);
+    font-weight: 700;
+    text-align: center;
+    padding: 30px;
+}
+
+#date .date-place {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+   
+}
+
+#date .date-place p {
+    font-size: 20px;
+    font-style: italic;
+    text-decoration: underline;
 }
