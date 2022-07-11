@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 @import url('https://use.fontawesome.com/releases/v6.1.1/css/all.css');
 
-/* General */
+/* Shorts */
 :root {
     --clr-green: #5e9a8e;
     --clr-light-green: #66978c;
@@ -45,7 +45,7 @@ span {
 }
 
 #header .header-wrapper .couple-logo a {
-    font-size: 32px;
+    font-size: 2rem;
     text-decoration: none;
     color: var(--clr-green);
 }
@@ -61,7 +61,7 @@ span {
 #header .header-wrapper .nav-ul .nav-menu a {
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 500;
     color: var(--clr-green);
 }
@@ -132,11 +132,11 @@ span {
     color: var(--clr-gray);
     padding: 20px 30px;
 }
+#story .story-text p{
+    font-style: italic;
+    font-size: 150%;
 
-#story .story-text h3 {
-    font-size: var(--h3-section-heading);
 }
-
 
 
 /* Place section */
