@@ -20,6 +20,11 @@ body {
 
 }
 
+/* General */
+span {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
 
 /* Header and Navigation styles */
 
@@ -132,10 +137,7 @@ body {
     font-size: var(--h3-section-heading);
 }
 
-#story .story-text span {
-    font-size: 20px;
-    font-weight: 700;
-}
+
 
 /* Place section */
 
