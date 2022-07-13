@@ -10,7 +10,8 @@
     --clr-light-background: #f7faf9;
     --clr-gray: #3d3d3d;
 
-    --h3-section-heading: 45px;
+    --h3-section-heading: 2.82rem;
+    --p-section-size: 1.25rem;
 }
 
 body {
@@ -39,7 +40,7 @@ span {
 
 
 #header .header-wrapper .couple-logo h1 {
-    font-size: 31px;
+    font-size: 2rem;
     text-shadow: 1px 1px 2px #999999;
     font-family: 'Great Vibes', cursive;
 }
@@ -132,7 +133,8 @@ span {
     color: var(--clr-gray);
     padding: 20px 30px;
 }
-#story .story-text p{
+
+#story .story-text p {
     font-style: italic;
     font-size: 150%;
 
@@ -163,7 +165,7 @@ span {
 }
 
 #date .date-place p {
-    font-size: 20px;
+    font-size: var(--p-section-size);
     font-style: italic;
     text-decoration: underline;
 }
@@ -172,3 +174,4 @@ span {
     color: white;
     text-decoration: none;
 }
+
