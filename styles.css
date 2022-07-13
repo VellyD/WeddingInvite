@@ -67,7 +67,7 @@ span {
     color: var(--clr-green);
 }
 
-/* invite section */
+/* Invite section */
 
 #invite {
     display: flex;
@@ -144,6 +144,7 @@ span {
 }
 
 #story .story-text p {
+    text-indent: 25px;
     font-style: italic;
     font-size: 150%;
 
