@@ -16,10 +16,11 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    
+
     /* font-family: 'Great Vibes', cursive; */
 
 }
+
 /* 
  General 
 span {
@@ -84,18 +85,19 @@ span {
     color: #fff;
 
     font-family: 'Great Vibes', cursive;
-    
+
 }
 
 #invite .invite-text {
     border-radius: 50%;
-    backdrop-filter: blur(5px) ;
+    backdrop-filter: blur(5px);
     padding: 70px;
 }
+
 #invite .invite-text h2 {
     font-size: 72px;
     text-shadow: 1px 1px 2px rgb(0 0 0 / 60%);
-   
+
 }
 
 #invite .invite-text h4 {
@@ -177,7 +179,7 @@ span {
 #date .date-place p {
     font-size: var(--p-section-size);
     font-style: italic;
-   
+
 }
 
 #date .date-place a {
@@ -187,4 +189,29 @@ span {
 
 }
 
+/* Details section */
 
+#details {
+    width: 80%;
+    margin: 5% auto;
+}
+
+#details .details-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: var(--clr-light-background);
+}
+
+#details .details-card img {
+    width: 50%;
+}
+
+#details .details-card .details-text {
+    width: 50%;
+    padding: 10%;
+    color: var(--clr-gray);
+    font-size: 18px;
+    
+}
