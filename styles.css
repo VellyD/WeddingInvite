@@ -168,6 +168,7 @@ span {
     font-weight: 700;
     text-align: center;
     padding: 30px;
+    text-decoration: underline;
 }
 
 #date .date-place {
@@ -216,12 +217,24 @@ span {
 
 #details .details-card .details-text h4{
     text-align: center;
+    text-decoration: underline;
     font-size: 24px;
     margin-bottom: 15px;
 }
 
 #details .details-card .details-text p {
     text-align: center;
+}
+
+/* Survey section */
+
+#survey {
+    height: 100vh;
+    background-image: url("./images/envelope.jpg");
+    background-size: cover;
+    border-top: 2px solid #e3e5e0;
+    border-bottom: 2px solid #e3e5e0;
+
 }
 
 
