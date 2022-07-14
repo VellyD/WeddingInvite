@@ -177,7 +177,7 @@ span {
 #date .date-place p {
     font-size: var(--p-section-size);
     font-style: italic;
-    text-decoration: underline;
+   
 }
 
 #date .date-place a {
