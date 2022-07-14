@@ -88,6 +88,8 @@ span {
 
 }
 
+
+
 #invite .invite-text {
     border-radius: 50%;
     backdrop-filter: blur(5px);
@@ -235,6 +237,18 @@ span {
     border-top: 2px solid #e3e5e0;
     border-bottom: 2px solid #e3e5e0;
 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding:  25px;
+    gap: 30%;
+
+}
+
+#survey h3, #survey p{
+    font-size: 21px;
+    
 }
 
 
