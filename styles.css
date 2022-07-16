@@ -11,6 +11,7 @@
     --clr-gray: #3d3d3d;
     --clr-light-g: #f7faf9;
     --clr-survey: #728857;
+    --clr-photos: #c8a4b0;
 
     --h3-section-heading: 2.82rem;
     --p-section-size: 1.25rem;
@@ -266,7 +267,6 @@ body {
     position: relative;
     top: 65%;
     left: 41%;
-    /* transform: translate(-50%, -50%); */
 
     text-decoration: none;
     font-size: 24px;
@@ -286,9 +286,8 @@ body {
 /* Photos section */
 
 #photos {
-    background-image: url("./images/iwan-shimko-PhciG8fpRKw-unsplash.jpg");
+    background-image: url("./images/photos.jpg");
     background-size: contain;
-    opacity: 0.8;
     background-position: center;
     background-clip: content-box;
     height: 100vh;
@@ -301,6 +300,7 @@ body {
     transform: translate(-50%, -50%);
 
     text-align: center;
+    color: var(--clr-gray);
 
 }
 
@@ -308,7 +308,6 @@ body {
     font-size: 36px;
     margin-bottom: 25px;
     text-decoration: underline;
-
 }
 
 #photos .text p {
@@ -316,6 +315,27 @@ body {
     font-style: italic;
 
 }
+
+#photos a {
+    position: relative;
+    top: 45%;
+    left: 45%;
+    text-decoration: none;
+
+    font-size: 24px;
+    border: 2px solid var(--clr-photos);
+    border-radius: 8px;
+    padding: 14px 28px;
+    color: var(--clr-photos);
+    background-color: transparent;
+
+}
+
+#photos a:hover{
+    color: white;
+    background-color: var(--clr-photos);
+}
+
 
 /* ToDo: 
 
