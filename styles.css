@@ -263,6 +263,7 @@ span {
 #survey .survey-button {
     background-image: url("./images/envelope.jpg");
     background-size: cover;
+    background-position: center;
     width: 50%;
     height: 100vh;
     display: flex;
