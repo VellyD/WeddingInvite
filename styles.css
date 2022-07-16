@@ -266,13 +266,28 @@ span {
     background-position: center;
     width: 50%;
     height: 100vh;
-    display: flex;
-    justify-content: first baseline;
-    align-items: center;
+
 }
 
 #survey .survey-button a {
-    text-align: center;
+    position: relative;
+    top: 65%;
+    left: 40%;
+    /* transform: translate(-50%, -50%); */
+
+    text-decoration: none;
+    font-size: 24px;
+    border: 2px solid #5e9a8e;
+    border-radius: 8px;
+    padding: 14px 28px;
+
+    color: #5e9a8e;
+    background-color: transparent;
+}
+
+#survey .survey-button a:hover {
+    color: white;
+    background-color: #5e9a8e;
 }
 
 /* 
