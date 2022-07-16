@@ -26,7 +26,7 @@ body {
 /* Header and Navigation styles */
 
 #header .header-wrapper {
-    max-width: 100%;
+
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -265,7 +265,7 @@ body {
 #survey .survey-button a {
     position: relative;
     top: 65%;
-    left: 40%;
+    left: 41%;
     /* transform: translate(-50%, -50%); */
 
     text-decoration: none;
@@ -283,6 +283,39 @@ body {
     background-color: var(--clr-survey);
 }
 
+/* Photos section */
+
+#photos {
+    background-image: url("./images/iwan-shimko-PhciG8fpRKw-unsplash.jpg");
+    background-size: contain;
+    opacity: 0.8;
+    background-position: center;
+    background-clip: content-box;
+    height: 100vh;
+}
+
+#photos .text {
+    position: relative;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    text-align: center;
+
+}
+
+#photos .text h3 {
+    font-size: 36px;
+    margin-bottom: 25px;
+    text-decoration: underline;
+
+}
+
+#photos .text p {
+    font-size: 24px;
+    font-style: italic;
+
+}
 
 /* ToDo: 
 
