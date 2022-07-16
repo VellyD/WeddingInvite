@@ -9,6 +9,8 @@
     --clr-light-green: #66978c;
     --clr-light-background: #f7faf9;
     --clr-gray: #3d3d3d;
+    --clr-light-g: #f7faf9;
+    --clr-survey: #728857;
 
     --h3-section-heading: 2.82rem;
     --p-section-size: 1.25rem;
@@ -20,13 +22,6 @@ body {
     /* font-family: 'Great Vibes', cursive; */
 
 }
-
-/* 
- General 
-span {
-    font-size: 1.2rem;
-    font-weight: 700;
-} */
 
 /* Header and Navigation styles */
 
@@ -88,8 +83,6 @@ span {
 
 }
 
-
-
 #invite .invite-text {
     border-radius: 50%;
     backdrop-filter: blur(5px);
@@ -124,7 +117,7 @@ span {
     align-items: center;
 
     margin: 50px auto;
-    background-color: var(--clr-light-background);
+    background-color: var(--clr-light-g);
 }
 
 #story .img {
@@ -158,9 +151,9 @@ span {
 /* Place section */
 
 #date {
-    background-color: var(--clr-green);
+    background-color: var(--clr-light-g);
     opacity: 0.9;
-    color: white;
+    color: var(--clr-light-green);
 
     padding-bottom: 40px;
 }
@@ -186,7 +179,7 @@ span {
 }
 
 #date .date-place a {
-    color: white;
+    color: var(--clr-light-green);
     text-decoration: none;
     font-size: var(--p-section-size);
 
@@ -233,7 +226,7 @@ span {
 #survey {
     width: 100%;
     height: 100vh;
-    background-color: #f7f9f8;
+    background-color: var(--clr-light-g);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -277,24 +270,22 @@ span {
 
     text-decoration: none;
     font-size: 24px;
-    border: 2px solid #5e9a8e;
+    border: 2px solid var(--clr-survey);
     border-radius: 8px;
     padding: 14px 28px;
 
-    color: #5e9a8e;
+    color: var(--clr-survey);
     background-color: transparent;
 }
 
 #survey .survey-button a:hover {
     color: white;
-    background-color: #5e9a8e;
+    background-color: var(--clr-survey);
 }
 
-/* 
-background-image: url("./images/envelope.jpg");
-background-size: cover; */
+
 /* ToDo: 
- fix the survey section!
+
 check the margins, paddings and overall the whole positioning there!
-Add background as the one of the photo. 
+
 */
