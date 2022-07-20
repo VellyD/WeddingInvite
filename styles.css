@@ -411,3 +411,13 @@ add @media queries for the phone view!!!
         font-size: 20px;
     }
 }
+
+@media screen and (max-width:1400px) {
+    #survey .survey-button a {
+        left: 39%;
+    }
+
+    #photos a {
+        left: 45%;
+    }
+}
