@@ -441,6 +441,7 @@ add @media queries for the phone view!!!
     }
 }
 
+/* ToDo: check for mediaQ1100px the 50/50 photos/text angle, if it fits good! */
 @media screen and (max-width:1100px) {
     #story .story-text p {
         font-size: 22px;
@@ -473,13 +474,13 @@ add @media queries for the phone view!!!
     #survey .survey-text h3 {
         font-size: 42px;
     }
-    
+
     #survey .survey-text p {
         font-size: 26px;
     }
 
     #photos a {
-        top:44%;
+        top: 44%;
         left: 44%;
     }
 }
