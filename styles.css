@@ -13,8 +13,8 @@
     --clr-survey: #728857;
     --clr-photos: #c8a4b0;
 
-    --h3-section-heading: 2.82rem;
-    --p-section-size: 1.25rem;
+    --h3-section-heading: 46px;
+    --p-section-size: 20px;
 }
 
 body {
@@ -74,6 +74,9 @@ body {
     height: 100vh;
 
     background-image: url('./images/invite-photo.jpg');
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
     background-size: cover;
 
     opacity: 0.9;
@@ -392,6 +395,8 @@ check the margins, paddings and overall the whole positioning there!
 add @media queries for the phone view!!!
 24px - p
 36px - H4 
+46px- h3
+20px - p section
 */
 
 /* Media queries: */
@@ -434,6 +439,47 @@ add @media queries for the phone view!!!
     #details .details-card .details-text p {
         font-size: 20px;
     }
+}
 
+@media screen and (max-width:1100px) {
+    #story .story-text p {
+        font-size: 22px;
+    }
 
+    #date h3 {
+        font-size: 42px;
+    }
+
+    #date .date-place p {
+        font-size: 18px;
+    }
+
+    #details .details-card .details-text {
+        font-size: 18px;
+    }
+
+    #details .details-card .details-text h4 {
+        font-size: 28px;
+    }
+
+    #details .details-card .details-text p {
+        font-size: 18px;
+    }
+
+    #survey .survey-button a {
+        left: 36%;
+    }
+
+    #survey .survey-text h3 {
+        font-size: 42px;
+    }
+    
+    #survey .survey-text p {
+        font-size: 26px;
+    }
+
+    #photos a {
+        top:44%;
+        left: 44%;
+    }
 }
