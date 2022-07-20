@@ -390,3 +390,21 @@ check the margins, paddings and overall the whole positioning there!
 
 add @media queries for the phone view!!!
 */
+
+/* Media queries: */
+
+@media screen and (max-width:1600px) {
+    #story .story-text p {
+        font-size: 26px;
+    }
+
+    #survey .survey-button a {
+        font-size: 20px;
+
+    }
+
+    #photos a {
+        top: 45%;
+        font-size: 20px;
+    }
+}
