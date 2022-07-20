@@ -421,3 +421,19 @@ add @media queries for the phone view!!!
         left: 45%;
     }
 }
+
+@media screen and (max-width:1300px) {
+    #details .details-card .details-text {
+        font-size: 20px;
+    }
+
+    #details .details-card .details-text h4 {
+        font-size: 32px;
+    }
+
+    #details .details-card .details-text p {
+        font-size: 20px;
+    }
+
+
+}
