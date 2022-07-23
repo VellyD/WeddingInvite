@@ -562,14 +562,12 @@ add @media queries for the phone view!!!
 
     #photos a {
         top: 25%;
-        left: 43%;
-        font-size: 20px;
+        left: 42%;
+        font-size: 24px;
 
         border: 2px solid white;
         color: white;
     }
-
-
 
     #photos a:hover {
         color: white;
