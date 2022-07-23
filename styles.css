@@ -387,15 +387,7 @@ body {
     color: var(--clr-light-green);
 }
 
-/* ToDo: 
-check the margins, paddings and overall the whole positioning there!
-
-add @media queries for the phone view!!!
-24px - p
-36px - H4 
-46px- h3
-20px - p section
-*/
+/* ToDo: */
 
 /* Media queries: */
 
@@ -664,6 +656,10 @@ add @media queries for the phone view!!!
         font-size: 20px;
     }
 
+    #date{
+        margin-bottom: 50px;
+    }
+
     #date h3 {
         font-size: 28px;
     }
@@ -682,9 +678,14 @@ add @media queries for the phone view!!!
         font-size: 22px;
     }
 
+    #details{
+        margin-bottom: 50px;
+    }
+
     #survey {
         gap: unset;
         padding: 0;
+        margin-bottom: 50px;
     }
 
     #survey .survey-text {
