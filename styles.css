@@ -441,7 +441,6 @@ add @media queries for the phone view!!!
     }
 }
 
-
 @media screen and (max-width:1100px) {
     #story .story-text p {
         font-size: 22px;
@@ -507,5 +506,73 @@ add @media queries for the phone view!!!
     #photos a {
         top: 43%;
         left: 43%;
+    }
+}
+
+@media screen and (max-width:900px) {
+    #date h3 {
+        font-size: 40px;
+    }
+
+    #date .date-place a {
+        font-size: 18px;
+    }
+
+    #details .details-card .details-text {
+        font-size: 16px;
+    }
+
+    #details .details-card .details-text h4 {
+        font-size: 24px;
+    }
+
+    #details .details-card .details-text p {
+        font-size: 16px;
+    }
+
+    #survey {
+        padding: 0px;
+        padding-left: 20px;
+        margin: 5% auto;
+    }
+
+    #survey .survey-text h3 {
+        font-size: 36px;
+    }
+
+    #survey .survey-text p {
+        font-size: 22px;
+    }
+
+    #survey .survey-button {
+        background-image: url("./images/envelope2.jpg");
+        background-position: center;
+    }
+
+    #survey .survey-button a {
+        top: 48%;
+        left: 26%;
+
+        font-size: 24px;
+    }
+
+    #photos .text p {
+        font-size: 22px;
+    }
+
+    #photos a {
+        top: 25%;
+        left: 43%;
+        font-size: 20px;
+
+        border: 2px solid white;
+        color: white;
+    }
+
+
+
+    #photos a:hover {
+        color: white;
+        background-color: var(--clr-photos);
     }
 }
