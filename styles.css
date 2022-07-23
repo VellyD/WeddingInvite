@@ -608,3 +608,38 @@ add @media queries for the phone view!!!
         margin-bottom: 10px;
     }
 }
+
+@media screen and (max-width:720px) {
+    #details .details-card .details-text {
+        font-size: 14px;
+    }
+
+    #details .details-card .details-text h4 {
+        font-size: 22px;
+    }
+
+    #details .details-card .details-text p {
+        font-size: 14px;
+    }
+
+    #survey .survey-text h3 {
+        font-size: 34px;
+    }
+    
+    #survey .survey-text p {
+        font-size: 22px;
+
+    }
+
+    #photos .text p {
+        font-size: 18px;
+    }
+
+    #photos a {
+        left: 40%;
+    }
+
+    #footer .footer-content {
+        font-size: 12px;
+    }
+}
