@@ -485,3 +485,27 @@ add @media queries for the phone view!!!
         left: 44%;
     }
 }
+
+@media screen and (max-width:1000px) {
+    #story .story-text p {
+        font-size: 20px;
+        padding: 20px;
+    }
+
+    #survey .survey-button a {
+        left: 34%;
+    }
+
+    #survey .survey-text h3 {
+        font-size: 40px;
+    }
+
+    #survey .survey-text p {
+        font-size: 22px;
+    }
+
+    #photos a {
+        top: 43%;
+        left: 43%;
+    }
+}
