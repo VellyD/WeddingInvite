@@ -574,3 +574,29 @@ add @media queries for the phone view!!!
         background-color: var(--clr-photos);
     }
 }
+
+@media screen and (max-width:800px) {
+    #details .details-card .details-text {
+        font-size: 16px;
+        padding: 3%;
+    }
+
+    #details .details-card .details-text h4 {
+        font-size: 24px;
+    }
+
+    #details .details-card .details-text p {
+        font-size: 16px;
+    }
+    #photos {
+        background-size: cover;
+    }
+
+    #photos .text p {
+        font-size: 20px;
+    }
+
+    #photos a {
+        left: 41%;
+    }
+}
