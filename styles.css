@@ -387,8 +387,6 @@ body {
     color: var(--clr-light-green);
 }
 
-/* ToDo: */
-
 /* Media queries: */
 
 @media screen and (max-width:1600px) {
@@ -724,3 +722,8 @@ body {
     }
 
 }
+
+
+/* ToDo: 
+Need to check all paddings and margins! 
+*/
