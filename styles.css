@@ -444,6 +444,10 @@ body {
         font-size: 18px;
     }
 
+    #details {
+        margin: 50px auto;
+    }
+
     #details .details-card .details-text {
         font-size: 18px;
         padding: 5%;
@@ -455,6 +459,10 @@ body {
 
     #details .details-card .details-text p {
         font-size: 18px;
+    }
+
+    #survey{
+        margin: 50px auto;
     }
 
     #survey .survey-button a {
