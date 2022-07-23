@@ -27,14 +27,12 @@ body {
 /* Header and Navigation styles */
 
 #header .header-wrapper {
-
     display: flex;
     justify-content: space-around;
     align-items: center;
 
     padding: 25px 50px;
 }
-
 
 #header .header-wrapper .couple-logo h1 {
     font-size: 2rem;
@@ -598,5 +596,15 @@ add @media queries for the phone view!!!
 
     #photos a {
         left: 41%;
+    }
+}
+
+@media screen and (max-width:750px) {
+    #header .header-wrapper{
+        display: block;
+    }
+    #header .header-wrapper .couple-logo h1{
+        text-align: center;
+        margin-bottom: 10px;
     }
 }
