@@ -790,10 +790,10 @@ body {
         margin-bottom: 50px;
     }
 
-    #details .details-card:nth-child(2){
+    #details .details-card:nth-child(2) {
         padding-bottom: 0px;
     }
-    
+
     #details .details-card img {
         width: 100%;
     }
@@ -811,7 +811,39 @@ body {
         font-size: 16px;
     }
 
+    #survey {
+        display: block;
+        height: max-content;
+    }
 
+    #survey .survey-text {
+        width: 100%;
+    }
+
+    #survey .survey-text h3 {
+        font-size: 24px;
+    }
+
+    #survey .survey-text p {
+        font-size: 18px;
+    }
+
+    #survey .survey-button {
+        width: 100%;
+    }
+
+    #survey .survey-button a {
+        top: 45%;
+        left: 17%;
+        font-size: 24px;
+    }
+
+    #photos a {
+        top: 39%;
+        left: 30%;
+        border: 2px solid var(--clr-photos);
+        color: var(--clr-photos);
+    }
 
 }
 
