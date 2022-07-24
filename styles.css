@@ -459,7 +459,7 @@ body {
         font-size: 18px;
     }
 
-    #survey{
+    #survey {
         margin: 50px auto;
     }
 
@@ -662,7 +662,7 @@ body {
         font-size: 20px;
     }
 
-    #date{
+    #date {
         margin-bottom: 50px;
     }
 
@@ -684,7 +684,7 @@ body {
         font-size: 22px;
     }
 
-    #details{
+    #details {
         margin-bottom: 50px;
     }
 
@@ -719,6 +719,49 @@ body {
     #photos a {
         top: 20%;
         left: 39%;
+    }
+
+}
+
+@media screen and (max-width:500px) {
+    #header .header-wrapper .nav-ul {
+        display: block;
+        text-align: center;
+    }
+
+    #header .header-wrapper .nav-ul .nav-menu a {
+        text-transform: unset;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    #invite .invite-text h4 {
+        text-align: center;
+    }
+
+    #story .story-text p {
+        font-size: 18px;
+    }
+
+    #details .details-card .details-text h4 {
+        font-size: 18px;
+    }
+
+    #details .details-card .details-text p {
+        font-size: 12px;
+
+    }
+
+    #survey .survey-text h3 {
+        font-size: 22px;
+    }
+
+    #survey .survey-text p {
+        font-size: 16px;
+    }
+
+    #photos a {
+        left: 34%;
     }
 
 }
