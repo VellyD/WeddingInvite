@@ -766,6 +766,54 @@ body {
 
 }
 
+@media screen and (max-width:400px) {
+    #story {
+        display: block;
+    }
+
+    #story .img {
+        width: 100%;
+    }
+
+    #story .story-text {
+        width: 100%;
+    }
+
+    #story .story-text p {
+        font-size: 22px;
+
+    }
+
+    #details .details-card {
+        display: block;
+        padding-bottom: 15px;
+        margin-bottom: 50px;
+    }
+
+    #details .details-card:nth-child(2){
+        padding-bottom: 0px;
+    }
+    
+    #details .details-card img {
+        width: 100%;
+    }
+
+    #details .details-card .details-text {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    #details .details-card .details-text h4 {
+        font-size: 22px;
+    }
+
+    #details .details-card .details-text p {
+        font-size: 16px;
+    }
+
+
+
+}
 
 /* ToDo: 
 Need to check all paddings and margins! 
