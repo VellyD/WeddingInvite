@@ -82,7 +82,7 @@ body {
     color: #fff;
 
     font-family: 'Great Vibes', cursive;
-
+    margin-bottom: 50px;
 }
 
 #invite .invite-text {
@@ -190,7 +190,7 @@ body {
 
 #details {
     width: 80%;
-    margin: 5% auto;
+    margin: 50px auto;
 }
 
 #details .details-card {
@@ -238,6 +238,7 @@ body {
     gap: 30px;
 
     padding: 0 25px;
+    margin-bottom: 50px;
 }
 
 #survey .survey-text {
@@ -801,6 +802,7 @@ body {
     #details .details-card .details-text {
         width: 100%;
         font-size: 16px;
+        padding: 15px;
     }
 
     #details .details-card .details-text h4 {
@@ -838,9 +840,20 @@ body {
         font-size: 24px;
     }
 
+    #photos .text h3 {
+        font-size: 30px;
+    }
+    
+    #photos .text p {
+        font-size: 16px;
+        padding: 0 15px;
+    
+    }
+
     #photos a {
-        top: 39%;
+        top: 36%;
         left: 30%;
+        font-size: 16px;
         border: 2px solid var(--clr-photos);
         color: var(--clr-photos);
     }
