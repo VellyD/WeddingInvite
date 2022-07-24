@@ -843,11 +843,11 @@ body {
     #photos .text h3 {
         font-size: 30px;
     }
-    
+
     #photos .text p {
         font-size: 16px;
         padding: 0 15px;
-    
+
     }
 
     #photos a {
@@ -860,6 +860,10 @@ body {
 
 }
 
-/* ToDo: 
-Need to check all paddings and margins! 
-*/
+@media screen and (max-width:390px) {
+    #photos a {
+        top: 44%;
+        left: 33%;
+    }
+}
+
