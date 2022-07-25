@@ -134,7 +134,6 @@ body {
     padding: 25px;
 }
 
-
 #story .story-text {
     width: 50%;
     color: var(--clr-gray);
@@ -147,7 +146,6 @@ body {
 
     padding: 25%;
 }
-
 
 /* Place section */
 
@@ -724,7 +722,7 @@ body {
 
 }
 
-@media screen and (max-width:500px) {
+/* @media screen and (max-width:500px) {
     #header .header-wrapper .nav-ul {
         display: block;
         text-align: center;
@@ -765,9 +763,33 @@ body {
         left: 34%;
     }
 
-}
+} */
 
-@media screen and (max-width:400px) {
+@media screen and (max-width:500px) {
+    #header .header-wrapper .nav-ul {
+        display: block;
+        text-align: center;
+    }
+
+    #header .header-wrapper .nav-ul .nav-menu a {
+        text-transform: unset;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    #invite .invite-text h4 {
+        text-align: center;
+    }
+
+    #story .img {
+        margin: 10px;
+    }
+
+    #story .story-text p {
+        font-size: 18px;
+        padding: 25px 50px;
+    }
+
     #story {
         display: block;
     }
@@ -807,10 +829,12 @@ body {
 
     #details .details-card .details-text h4 {
         font-size: 22px;
+        padding: 10px 30px;
     }
 
     #details .details-card .details-text p {
         font-size: 16px;
+        padding: 0px 30px;
     }
 
     #survey {
@@ -824,10 +848,12 @@ body {
 
     #survey .survey-text h3 {
         font-size: 24px;
+        padding: 10px 30px;
     }
 
     #survey .survey-text p {
         font-size: 18px;
+        padding: 0px 30px;
     }
 
     #survey .survey-button {
@@ -835,27 +861,29 @@ body {
     }
 
     #survey .survey-button a {
-        top: 45%;
-        left: 17%;
+        top: 50%;
+        left: 35%;
         font-size: 24px;
     }
 
     #photos .text h3 {
         font-size: 30px;
+        padding: 10px 30px;
+        margin: unset;
     }
 
     #photos .text p {
         font-size: 16px;
-        padding: 0 15px;
+        padding: 0px 30px;
 
     }
 
     #photos a {
-        top: 36%;
-        left: 30%;
-        font-size: 16px;
-        border: 2px solid var(--clr-photos);
-        color: var(--clr-photos);
+        top: 21%;
+        left: 34%;
+        font-size: 18px;
+        border: 2px solid white;
+        color: white;
     }
 
 }
@@ -866,4 +894,3 @@ body {
         left: 33%;
     }
 }
-
