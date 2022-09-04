@@ -12,4 +12,4 @@ The site was designed to serve best on a desktop, but has functionality for mobi
 
 ## Photos Section
 
-The photo section is ready to use, but we will add the URL after the event.
+The photo section is ready to use.
