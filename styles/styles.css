@@ -124,10 +124,9 @@ body {
 
 #date {
     background-color: var(--clr-light-g);
-    opacity: 0.9;
     color: var(--clr-light-green);
 
-    padding-bottom: 40px;
+    padding-bottom: 20px;
 }
 
 #date h3 {
@@ -142,20 +141,39 @@ body {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-}
 
-#date .date-place p {
-    font-size: var(--p-section-size);
-    font-style: italic;
 
 }
 
-#date .date-place a {
-    color: var(--clr-light-green);
-    text-decoration: none;
-    font-size: var(--p-section-size);
+#date .date-place .tooltip {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
 
 }
+
+#date .date-place .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    bottom: 100%;
+    margin-left: -60px;
+    background-color: var(--clr-light-green);
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+
+    position: absolute;
+
+}
+
+#date .date-place .tooltip .tooltiptext a {
+    color: #fff;
+}
+
+#date .date-place .tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
 
 /* Details section */
 
