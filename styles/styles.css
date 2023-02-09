@@ -50,20 +50,17 @@ body {
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 100vh;
+    height: 60vh;
 
     background-image: url('../images/invite-photo.jpg');
     background-position: center center;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
-
-    opacity: 0.9;
-
     color: #fff;
 
     font-family: 'Great Vibes', cursive;
-    margin-bottom: 50px;
+
 }
 
 #invite .invite-text {
@@ -94,7 +91,7 @@ body {
 /* Story section */
 
 #story {
-    width: 80%;
+    height: 70vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -103,29 +100,24 @@ body {
     background-color: var(--clr-light-g);
 }
 
-#story .img {
-    width: 50%;
+#story img {
+    max-width: 50%;
+    height: 70vh;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
 
-}
-
-#story .img img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 40px;
-    padding: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    opacity: 0.9;
 }
 
 #story .story-text {
     width: 50%;
-    color: var(--clr-gray);
-}
-
-#story .story-text p {
     font-size: 36px;
     font-style: italic;
     text-align: center;
-
-    padding: 25%;
+    padding: 3rem;
+    color: var(--clr-gray);
 }
 
 /* Place section */
