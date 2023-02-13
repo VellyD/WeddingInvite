@@ -179,15 +179,14 @@ body {
 
 #details {
     width: 80%;
-    margin: 50px auto;
+    background-color: var(--clr-light-background);
+    margin: 25px auto;
 }
 
 #details .details-card {
     display: flex;
     justify-content: center;
     align-items: center;
-
-    background-color: var(--clr-light-background);
 }
 
 #details .details-card img {
@@ -199,8 +198,6 @@ body {
     padding: 10%;
     color: var(--clr-gray);
     font-size: 24px;
-    text-align: center;
-
 }
 
 #details .details-card .details-text h4 {
@@ -209,70 +206,50 @@ body {
     margin-bottom: 15px;
 }
 
-#details .details-card .details-text p {
-    text-align: center;
-    font-size: 24px;
-
-}
-
 /* Survey section */
 
 #survey {
     width: 100%;
-    height: 100vh;
-    background-color: var(--clr-light-g);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
+    height: 50vh;
+    background-image: url("../images/envelope2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 
-    padding: 0 25px;
-    margin-bottom: 50px;
+    /* ToDo: Check for all background properties.  */
 }
 
 #survey .survey-text {
-    width: 50%;
-    text-align: center;
+    width: 30%;
+    position: relative;
+    top: 20%;
+    left: 20%;
     color: var(--clr-gray);
-
 }
 
 #survey .survey-text h3 {
     font-size: 36px;
-    margin-bottom: 25px;
     text-decoration: underline;
+    margin-bottom: 25px;
 }
 
 #survey .survey-text p {
     font-size: 24px;
     font-style: italic;
+    margin-bottom: 25px;
 }
 
-#survey .survey-button {
-
-    background-size: cover;
-    background-position: center;
-    width: 50%;
-    height: 100vh;
-
-}
-
-#survey .survey-button a {
-    position: relative;
-    top: 65%;
-    left: 41%;
-
+#survey .survey-link {
     text-decoration: none;
     font-size: 24px;
     border: 2px solid var(--clr-survey);
     border-radius: 8px;
     padding: 14px 28px;
-
     color: var(--clr-survey);
     background-color: transparent;
 }
 
-#survey .survey-button a:hover {
+#survey .survey-link:hover {
     color: white;
     background-color: var(--clr-survey);
 }
@@ -343,7 +320,6 @@ body {
     align-items: center;
     justify-content: center;
     gap: 5px;
-
     padding: 20px;
 }
 
@@ -371,14 +347,9 @@ body {
 
 }
 
-#myBtn:hover {
-    background-color: white;
-    color: var(--clr-light-green);
-}
-
 /* Media queries: */
 
-@media screen and (max-width:1600px) {
+/* @media screen and (max-width:1600px) {
     #story .story-text p {
         font-size: 26px;
     }
@@ -841,4 +812,4 @@ body {
         top: 44%;
         left: 33%;
     }
-}
+} */
