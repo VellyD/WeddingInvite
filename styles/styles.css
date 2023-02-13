@@ -257,51 +257,38 @@ body {
 /* Photos section */
 
 #photos {
-    background-size: contain;
-    background-position: center;
-    background-clip: content-box;
-    height: 100vh;
+    margin: 25px auto;
+
+
 }
 
 #photos .text {
-    position: relative;
-    top: 80%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-
     text-align: center;
     color: var(--clr-gray);
-
 }
 
 #photos .text h3 {
     font-size: 36px;
-    margin-bottom: 25px;
     text-decoration: underline;
+    margin-bottom: 25px;
 }
 
 #photos .text p {
     font-size: 24px;
     font-style: italic;
-
+    margin-bottom: 25px;
 }
 
-#photos a {
-    position: relative;
-    top: 46%;
-    left: 46%;
-    text-decoration: none;
-
+#photos .photos-link {
     font-size: 24px;
     border: 2px solid var(--clr-photos);
     border-radius: 8px;
     padding: 14px 28px;
     color: var(--clr-photos);
     background-color: transparent;
-
 }
 
-#photos a:hover {
+#photos .photos-link:hover {
     color: white;
     background-color: var(--clr-photos);
 }
