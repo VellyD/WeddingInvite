@@ -4,11 +4,11 @@ This project was created as a wedding invite. The project contains mostly HTML a
 
 ## URL
 
-The website/invite has been published to GitHub Pages : https://vellyd.github.io/weddingMihail-Velina/  
+The website/invite has been published to GitHub Pages : https://vellyd.github.io/WeddingInvite
 
 ## Media
 
-The site was designed to serve best on a desktop, but has functionality for mobile too. 
+
 
 ## Photos Section
 
