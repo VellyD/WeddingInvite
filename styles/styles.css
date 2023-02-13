@@ -18,9 +18,6 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-
-    /* font-family: 'Great Vibes', cursive; */
-
 }
 
 /* Header and Navigation styles */
@@ -124,10 +121,9 @@ body {
 
 #date {
     background-color: var(--clr-light-g);
-    opacity: 0.9;
     color: var(--clr-light-green);
 
-    padding-bottom: 40px;
+    padding-bottom: 20px;
 }
 
 #date h3 {
@@ -142,34 +138,52 @@ body {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-}
 
-#date .date-place p {
-    font-size: var(--p-section-size);
-    font-style: italic;
 
 }
 
-#date .date-place a {
-    color: var(--clr-light-green);
-    text-decoration: none;
-    font-size: var(--p-section-size);
+#date .date-place .tooltip {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
 
 }
+
+#date .date-place .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    bottom: 100%;
+    margin-left: -60px;
+    background-color: var(--clr-light-green);
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+
+    position: absolute;
+
+}
+
+#date .date-place .tooltip .tooltiptext a {
+    color: #fff;
+}
+
+#date .date-place .tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
 
 /* Details section */
 
 #details {
     width: 80%;
-    margin: 50px auto;
+    background-color: var(--clr-light-background);
+    margin: 25px auto;
 }
 
 #details .details-card {
     display: flex;
     justify-content: center;
     align-items: center;
-
-    background-color: var(--clr-light-background);
 }
 
 #details .details-card img {
@@ -181,8 +195,6 @@ body {
     padding: 10%;
     color: var(--clr-gray);
     font-size: 24px;
-    text-align: center;
-
 }
 
 #details .details-card .details-text h4 {
@@ -191,70 +203,50 @@ body {
     margin-bottom: 15px;
 }
 
-#details .details-card .details-text p {
-    text-align: center;
-    font-size: 24px;
-
-}
-
 /* Survey section */
 
 #survey {
     width: 100%;
-    height: 100vh;
-    background-color: var(--clr-light-g);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
+    height: 50vh;
+    background-image: url("../images/envelope2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 
-    padding: 0 25px;
-    margin-bottom: 50px;
+    /* ToDo: Check all background properties.  */
 }
 
 #survey .survey-text {
-    width: 50%;
-    text-align: center;
+    width: 30%;
+    position: relative;
+    top: 20%;
+    left: 20%;
     color: var(--clr-gray);
-
 }
 
 #survey .survey-text h3 {
     font-size: 36px;
-    margin-bottom: 25px;
     text-decoration: underline;
+    margin-bottom: 25px;
 }
 
 #survey .survey-text p {
     font-size: 24px;
     font-style: italic;
+    margin-bottom: 25px;
 }
 
-#survey .survey-button {
-
-    background-size: cover;
-    background-position: center;
-    width: 50%;
-    height: 100vh;
-
-}
-
-#survey .survey-button a {
-    position: relative;
-    top: 65%;
-    left: 41%;
-
+#survey .survey-link {
     text-decoration: none;
     font-size: 24px;
     border: 2px solid var(--clr-survey);
     border-radius: 8px;
     padding: 14px 28px;
-
     color: var(--clr-survey);
     background-color: transparent;
 }
 
-#survey .survey-button a:hover {
+#survey .survey-link:hover {
     color: white;
     background-color: var(--clr-survey);
 }
@@ -262,53 +254,81 @@ body {
 /* Photos section */
 
 #photos {
-    background-size: contain;
-    background-position: center;
-    background-clip: content-box;
-    height: 100vh;
+    margin: 25px auto;
 }
 
 #photos .text {
-    position: relative;
-    top: 80%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-
     text-align: center;
     color: var(--clr-gray);
-
 }
 
 #photos .text h3 {
     font-size: 36px;
-    margin-bottom: 25px;
     text-decoration: underline;
+    margin-bottom: 25px;
 }
 
 #photos .text p {
     font-size: 24px;
     font-style: italic;
-
+    margin-bottom: 25px;
 }
 
-#photos a {
-    position: relative;
-    top: 46%;
-    left: 46%;
-    text-decoration: none;
-
+#photos .photos-link {
     font-size: 24px;
     border: 2px solid var(--clr-photos);
     border-radius: 8px;
     padding: 14px 28px;
     color: var(--clr-photos);
     background-color: transparent;
-
 }
 
-#photos a:hover {
+#photos .photos-link:hover {
     color: white;
     background-color: var(--clr-photos);
+}
+
+#photos .slideshow {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+#photos .slideshow .mySlides {
+    display: none;
+}
+
+#photos .slideshow .text {
+    color: white;
+    font-size: 24px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 10px;
+}
+
+#photos .slideshow .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
+#photos .slideshow .fade {
+    /* ToDo:  check all animation options */
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
 }
 
 /* Footer section */
@@ -325,7 +345,6 @@ body {
     align-items: center;
     justify-content: center;
     gap: 5px;
-
     padding: 20px;
 }
 
@@ -353,14 +372,9 @@ body {
 
 }
 
-#myBtn:hover {
-    background-color: white;
-    color: var(--clr-light-green);
-}
-
 /* Media queries: */
 
-@media screen and (max-width:1600px) {
+/* @media screen and (max-width:1600px) {
     #story .story-text p {
         font-size: 26px;
     }
@@ -376,451 +390,4 @@ body {
     }
 }
 
-@media screen and (max-width:1400px) {
-    #survey .survey-button a {
-        left: 39%;
-    }
-
-    #photos a {
-        left: 45%;
-    }
-}
-
-@media screen and (max-width:1300px) {
-    #details .details-card .details-text {
-        font-size: 20px;
-    }
-
-    #details .details-card .details-text h4 {
-        font-size: 32px;
-    }
-
-    #details .details-card .details-text p {
-        font-size: 20px;
-    }
-}
-
-@media screen and (max-width:1100px) {
-    #story .story-text p {
-        font-size: 22px;
-    }
-
-    #date h3 {
-        font-size: 42px;
-    }
-
-    #date .date-place p {
-        font-size: 18px;
-    }
-
-    #details {
-        margin: 50px auto;
-    }
-
-    #details .details-card .details-text {
-        font-size: 18px;
-        padding: 5%;
-    }
-
-    #details .details-card .details-text h4 {
-        font-size: 28px;
-    }
-
-    #details .details-card .details-text p {
-        font-size: 18px;
-    }
-
-    #survey {
-        margin: 50px auto;
-    }
-
-    #survey .survey-button a {
-        left: 36%;
-    }
-
-    #survey .survey-text h3 {
-        font-size: 42px;
-    }
-
-    #survey .survey-text p {
-        font-size: 26px;
-    }
-
-    #photos a {
-        top: 44%;
-        left: 44%;
-    }
-}
-
-@media screen and (max-width:1000px) {
-    #story .story-text p {
-        font-size: 20px;
-        padding: 20px;
-    }
-
-    #survey .survey-button a {
-        left: 34%;
-    }
-
-    #survey .survey-text h3 {
-        font-size: 40px;
-    }
-
-    #survey .survey-text p {
-        font-size: 22px;
-    }
-
-    #photos a {
-        top: 43%;
-        left: 43%;
-    }
-}
-
-@media screen and (max-width:900px) {
-    #date h3 {
-        font-size: 40px;
-    }
-
-    #date .date-place a {
-        font-size: 18px;
-    }
-
-    #details .details-card .details-text {
-        font-size: 16px;
-    }
-
-    #details .details-card .details-text h4 {
-        font-size: 24px;
-    }
-
-    #details .details-card .details-text p {
-        font-size: 16px;
-    }
-
-    #survey {
-        padding: 0px;
-        padding-left: 20px;
-        margin: 5% auto;
-    }
-
-    #survey .survey-text h3 {
-        font-size: 36px;
-    }
-
-    #survey .survey-text p {
-        font-size: 22px;
-    }
-
-    #survey .survey-button {
-        background-image: url("./images/envelope2.jpg");
-        background-position: center;
-    }
-
-    #survey .survey-button a {
-        top: 48%;
-        left: 26%;
-
-        font-size: 24px;
-    }
-
-    #photos .text p {
-        font-size: 22px;
-    }
-
-    #photos a {
-        top: 25%;
-        left: 42%;
-        font-size: 24px;
-
-        border: 2px solid white;
-        color: white;
-    }
-
-    #photos a:hover {
-        color: white;
-        background-color: var(--clr-photos);
-    }
-}
-
-@media screen and (max-width:800px) {
-    #details .details-card .details-text {
-        font-size: 16px;
-        padding: 3%;
-    }
-
-    #details .details-card .details-text h4 {
-        font-size: 24px;
-    }
-
-    #details .details-card .details-text p {
-        font-size: 16px;
-    }
-
-    #photos {
-        background-size: cover;
-    }
-
-    #photos .text p {
-        font-size: 20px;
-    }
-
-    #photos a {
-        left: 41%;
-    }
-}
-
-@media screen and (max-width:750px) {
-    #header .header-wrapper {
-        display: block;
-    }
-
-    #header .header-wrapper .couple-logo h1 {
-        text-align: center;
-        margin-bottom: 10px;
-    }
-}
-
-@media screen and (max-width:720px) {
-    #details .details-card .details-text {
-        font-size: 14px;
-    }
-
-    #details .details-card .details-text h4 {
-        font-size: 22px;
-    }
-
-    #details .details-card .details-text p {
-        font-size: 14px;
-    }
-
-    #survey .survey-text h3 {
-        font-size: 34px;
-    }
-
-    #survey .survey-text p {
-        font-size: 22px;
-
-    }
-
-    #photos .text p {
-        font-size: 18px;
-    }
-
-    #photos a {
-        left: 40%;
-    }
-
-    #footer .footer-content {
-        font-size: 12px;
-    }
-}
-
-@media screen and (max-width:630px) {
-    #invite .invite-text h2 {
-        font-size: 54px;
-        text-align: center;
-    }
-
-    #invite .invite-text h4 {
-        font-size: 16px;
-    }
-
-    #story {
-        width: 100%;
-    }
-
-    #story .story-text p {
-        font-size: 20px;
-    }
-
-    #date {
-        margin-bottom: 50px;
-    }
-
-    #date h3 {
-        font-size: 28px;
-    }
-
-    #date .date-place {
-        display: block;
-        text-align: center;
-    }
-
-    #date .date-place p {
-        font-size: 22px;
-        margin-bottom: 10px;
-    }
-
-    #date .date-place a {
-        font-size: 22px;
-    }
-
-    #details {
-        margin-bottom: 50px;
-    }
-
-    #survey {
-        gap: unset;
-        padding: 0;
-        margin-bottom: 50px;
-    }
-
-    #survey .survey-text {
-        padding: 35px;
-    }
-
-    #survey .survey-text p {
-        font-size: 20px;
-    }
-
-    #survey .survey-button a {
-        top: 50%;
-        left: 19%;
-        font-size: 20px;
-    }
-
-    #details {
-        width: 100%;
-    }
-
-    #survey .survey-text p {
-        font-size: 20px;
-    }
-
-    #photos a {
-        top: 20%;
-        left: 39%;
-    }
-
-}
-
-
-@media screen and (max-width:500px) {
-    #header .header-wrapper .nav-ul {
-        display: block;
-        text-align: center;
-    }
-
-    #header .header-wrapper .nav-ul .nav-menu a {
-        text-transform: unset;
-        font-size: 20px;
-        margin-bottom: 10px;
-    }
-
-    #invite .invite-text h4 {
-        text-align: center;
-    }
-
-    #story .img {
-        margin: 10px;
-    }
-
-    #story .story-text p {
-        font-size: 18px;
-        padding: 25px 50px;
-    }
-
-    #story {
-        display: block;
-    }
-
-    #story .img {
-        width: 100%;
-    }
-
-    #story .story-text {
-        width: 100%;
-    }
-
-    #story .story-text p {
-        font-size: 22px;
-
-    }
-
-    #details .details-card {
-        display: block;
-        padding-bottom: 15px;
-        margin-bottom: 50px;
-    }
-
-    #details .details-card:nth-child(2) {
-        padding-bottom: 0px;
-    }
-
-    #details .details-card img {
-        width: 100%;
-    }
-
-    #details .details-card .details-text {
-        width: 100%;
-        font-size: 16px;
-        padding: 15px;
-    }
-
-    #details .details-card .details-text h4 {
-        font-size: 22px;
-        padding: 10px 30px;
-    }
-
-    #details .details-card .details-text p {
-        font-size: 16px;
-        padding: 0px 30px;
-    }
-
-    #survey {
-        display: block;
-        height: max-content;
-    }
-
-    #survey .survey-text {
-        width: 100%;
-    }
-
-    #survey .survey-text h3 {
-        font-size: 24px;
-        padding: 10px 30px;
-    }
-
-    #survey .survey-text p {
-        font-size: 18px;
-        padding: 0px 30px;
-    }
-
-    #survey .survey-button {
-        width: 100%;
-    }
-
-    #survey .survey-button a {
-        top: 50%;
-        left: 35%;
-        font-size: 24px;
-    }
-
-    #photos .text h3 {
-        font-size: 30px;
-        padding: 10px 30px;
-        margin: unset;
-    }
-
-    #photos .text p {
-        font-size: 16px;
-        padding: 0px 30px;
-
-    }
-
-    #photos a {
-        top: 21%;
-        left: 34%;
-        font-size: 18px;
-        border: 2px solid white;
-        color: white;
-    }
-
-}
-
-@media screen and (max-width:390px) {
-    #photos a {
-        top: 44%;
-        left: 33%;
-    }
-}
+/* ToDo: Add Media query for phone - iPhone and Android. */
