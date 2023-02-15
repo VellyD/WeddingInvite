@@ -1,22 +1,23 @@
-// testing solution from W3Schools
-
-let mybutton = document.getElementById("myBtn");
+let myBtn = document.getElementById("scrollBtn");
 
 window.onscroll = function () {
-  scrollFunction();
+  showButton();
 };
 
-function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    mybutton.style.display = "block";
-  } else {
-    mybutton.style.display = "none";
-  }
-}
+myBtn.addEventListener("click", function () {
+  window.scrollTo({
+    top: 0,
+    left: 0,
+    behavior: "smooth",
+  });
+});
 
-function topFunction() {
-  document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
+function showButton() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    myBtn.style.display = "block";
+  } else {
+    myBtn.style.display = "none";
+  }
 }
 
 let slideIndex = 0;
@@ -33,5 +34,5 @@ function showSlides() {
     slideIndex = 1;
   }
   slides[slideIndex - 1].style.display = "block";
-  setTimeout(showSlides, 5000);
+  setTimeout(showSlides, 7000);
 }
