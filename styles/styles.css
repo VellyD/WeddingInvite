@@ -1,6 +1,5 @@
 @import url('https://use.fontawesome.com/releases/v6.1.1/css/all.css');
 
-/* Shorts */
 :root {
     --clr-green: #5e9a8e;
     --clr-light-green: #66978c;
@@ -15,8 +14,16 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-/* Header and Navigation styles */
+#invite,
+#story,
+#date,
+#details,
+#survey,
+#photos {
+    margin-bottom: 50px;
+}
 
+/* Header and Navigation styles */
 #header .header-wrapper {
     padding: 25px 50px;
 }
@@ -36,7 +43,6 @@ body {
 }
 
 /* Invite section */
-
 #invite {
     display: flex;
     justify-content: center;
@@ -81,14 +87,13 @@ body {
 }
 
 /* Story section */
-
 #story {
     height: 70vh;
     display: flex;
     justify-content: center;
     align-items: center;
 
-    margin: 50px auto;
+
     background-color: var(--clr-light-g);
 }
 
@@ -113,7 +118,6 @@ body {
 }
 
 /* Place section */
-
 #date {
     background-color: var(--clr-light-g);
     color: var(--clr-light-green);
@@ -168,11 +172,11 @@ body {
 
 
 /* Details section */
-
 #details {
     width: 80%;
     background-color: var(--clr-light-background);
-    margin: 25px auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #details .details-card {
@@ -199,10 +203,9 @@ body {
 }
 
 /* Survey section */
-
 #survey {
     width: 100%;
-    height: 50vh;
+    height: 60vh;
     background-image: url("../images/envelope2.jpg");
     background-size: cover;
     background-position: center;
@@ -245,11 +248,6 @@ body {
 }
 
 /* Photos section */
-
-#photos {
-    margin: 25px auto;
-}
-
 #photos .text {
     text-align: center;
     color: var(--clr-gray);
@@ -325,7 +323,6 @@ body {
 }
 
 /* Footer section */
-
 #footer {
     background-color: var(--clr-photos);
     color: white;
@@ -366,21 +363,222 @@ body {
 }
 
 /* Media queries: */
-
-/* @media screen and (max-width:1600px) {
-    #story .story-text p {
-        font-size: 26px;
+@media screen and (max-width:1600px) {
+    #story .story-text {
+        font-size: 28px;
     }
 
-    #survey .survey-button a {
+    #details .details-card .details-text {
         font-size: 20px;
-
+        padding: 5%;
     }
 
-    #photos a {
-        top: 45%;
+    #details .details-card .details-text h4 {
+        font-size: 28px;
+    }
+
+    #survey .survey-text h3 {
+        font-size: 28px;
+    }
+
+    #survey .survey-text p {
+        font-size: 20px;
+    }
+
+    #survey .survey-link {
+        font-size: 20px;
+    }
+
+    #photos .text h3 {
+        font-size: 28px;
+    }
+
+    #photos .text p {
+        font-size: 20px;
+    }
+
+    #photos .photos-link {
         font-size: 20px;
     }
 }
 
-/* ToDo: Add Media query for phone - iPhone and Android. */
+@media screen and (max-width:900px) {
+    #story .story-text {
+        font-size: 24px;
+    }
+
+    #details .details-card .details-text {
+        font-size: 16px;
+        padding: 5%;
+    }
+
+    #details .details-card .details-text h4 {
+        font-size: 24px;
+    }
+
+    #survey {
+        height: 50vh;
+    }
+
+    #survey .survey-text h3 {
+        font-size: 24px;
+    }
+
+    #survey .survey-text p {
+        font-size: 16px;
+    }
+
+    #survey .survey-link {
+        font-size: 16px;
+    }
+
+    #photos .text h3 {
+        font-size: 24px;
+    }
+
+    #photos .text p {
+        font-size: 16px;
+    }
+
+    #photos .photos-link {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width:800px) {
+
+    /* Mobile */
+    #header .header-wrapper .nav-ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #header .header-wrapper .nav-ul .nav-menu a {
+        font-size: 16px;
+    }
+
+    #invite {
+        height: 100vh;
+        background-position: center;
+    }
+
+    #invite .invite-text {
+        border-radius: unset;
+        backdrop-filter: unset;
+        padding: unset;
+        text-align: center;
+    }
+
+    #invite .invite-text h2 {
+        font-size: 48px;
+        text-shadow: unset;
+    }
+
+    #invite .invite-text h4 {
+        font-size: 16px;
+    }
+
+    #story {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #story img {
+        max-width: 100%;
+        height: 50%;
+        margin: 15px auto;
+    }
+
+    #story .story-text {
+        width: 100%;
+        font-size: 18px;
+        text-align: start;
+        padding: 0 15px;
+    }
+
+    #date h3 {
+        font-size: 32px;
+        font-weight: 700;
+    }
+
+    #date .date-place {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    #date .date-place .tooltip {
+        cursor: unset;
+        text-decoration: underline;
+    }
+
+    #date .date-place .tooltip .tooltiptext {
+        width: 100px;
+        bottom: unset;
+        margin-left: 5px;
+    }
+
+    #details .details-card {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 20px;
+    }
+
+    #details .details-card img {
+        width: 100%;
+    }
+
+    #details .details-card .details-text {
+        width: 100%;
+    }
+
+    #survey {
+        height: 80vh;
+    }
+
+    #survey .survey-text {
+        width: 90vw;
+        height: 60vh;
+        position: absolute;
+        top: unset;
+        left: unset;
+        margin: 50px 20px;
+        padding: 15px;
+        backdrop-filter: blur(10px);
+    }
+
+    #survey .survey-text h3 {
+        font-size: 32px;
+        color: black;
+    }
+
+    #survey .survey-text p {
+        font-size: 18px;
+        color: black;
+    }
+
+    #survey .survey-link {
+        font-size: 16px;
+    }
+
+    #photos .text h3 {
+        font-size: 32px;
+    }
+
+    #photos .text p {
+        font-size: 18px;
+    }
+
+    #photos .photos-link {
+        font-size: 16px;
+    }
+
+    #photos .slideshow {
+        max-height: 100vh;
+    }
+
+    #photos .slideshow .text {
+        font-size: 16px;
+        font-weight: 600;
+    }
+}
