@@ -6,6 +6,3 @@ The website/invite is published via GitHub Pages : https://vellyd.github.io/Wedd
 
 ## Media
 The project supports mobile view via media query.
-
-## Photos Section
-The photo section is ready to use. 
